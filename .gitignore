@@ -1,0 +1,12 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+tsconfig.json
+jsconfig.json
+yarn.lock
+yarn-error.log
+*.jks
+onrun.
+.log/**/*
+*.DS_Store
+.vscode/*

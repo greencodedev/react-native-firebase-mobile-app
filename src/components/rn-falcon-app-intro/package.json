@@ -1,0 +1,63 @@
+{
+  "_from": "rn-falcon-app-intro",
+  "_id": "rn-falcon-app-intro@1.2.9",
+  "_inBundle": false,
+  "_integrity": "sha512-m6vBzj6z9J6kYmoddiWIjmGpvULmdXavq9F9lE4kVhPQKYK7ciTkrepevyKapH8MAowGLjz/u3nJIm2smGCqvA==",
+  "_location": "/rn-falcon-app-intro",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rn-falcon-app-intro",
+    "name": "rn-falcon-app-intro",
+    "escapedName": "rn-falcon-app-intro",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rn-falcon-app-intro/-/rn-falcon-app-intro-1.2.9.tgz",
+  "_shasum": "d98e96d0070f9e99a0649c091b98f4f2c4ddeb63",
+  "_spec": "rn-falcon-app-intro",
+  "_where": "D:\\TEST\\New folder (2)\\Expo_Facebook",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Richi2293/rn-falcon-app-intro/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "assign-deep": "^0.4.5",
+    "prop-types": "^15.5.8",
+    "react-native-swiper": "^1.6.0-nightly.5"
+  },
+  "deprecated": false,
+  "description": "rn-falcon-app-intro is a react native plugin implementing a parallax effect welcome page using base on react-native-swiper , similar to the one found in Google's app like Sheet, Drive, Docs...",
+  "devDependencies": {
+    "react-test-renderer": "16.6.3"
+  },
+  "homepage": "https://github.com/Richi2293/rn-falcon-app-intro#readme",
+  "keywords": [
+    "swiper",
+    "ProductTour",
+    "App",
+    "Intro",
+    "ios",
+    "android",
+    "react-component",
+    "react-native"
+  ],
+  "license": "ISC",
+  "main": "AppIntro.js",
+  "name": "rn-falcon-app-intro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richi2293/rn-falcon-app-intro.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.9"
+}

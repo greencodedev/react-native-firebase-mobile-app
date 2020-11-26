@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "338959907607",
+    "firebase_url": "https://sportify-api.firebaseio.com",
+    "project_id": "sportify-api",
+    "storage_bucket": "sportify-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338959907607:android:f7711abd53e71afd3e1552",
+        "android_client_info": {
+          "package_name": "com.app.onrun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338959907607-0jim9h8nseevi46si4g0f4ol8vbv5ln0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.onrun",
+            "certificate_hash": "46ed9b9f235bf7c91a6b710fcd11adbc7d816494"
+          }
+        },
+        {
+          "client_id": "338959907607-r3n9voauouc9243ortd0anbbouu1jer5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWrF50LU-OflwtBpef47rZlSLg-CMhkOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338959907607-r3n9voauouc9243ortd0anbbouu1jer5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "338959907607-me0sht6s0vklup80jil6bo7qg7nl2is3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.onrunclient",
+                "app_store_id": "1447766219"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338959907607:android:60991532cdb930f33e1552",
+        "android_client_info": {
+          "package_name": "com.app.onrunclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338959907607-r3n9voauouc9243ortd0anbbouu1jer5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWrF50LU-OflwtBpef47rZlSLg-CMhkOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338959907607-r3n9voauouc9243ortd0anbbouu1jer5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "338959907607-me0sht6s0vklup80jil6bo7qg7nl2is3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.onrunclient",
+                "app_store_id": "1447766219"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

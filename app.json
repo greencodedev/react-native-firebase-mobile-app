@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "onRun",
+    "description": "onRun garnishes your athletic results, and welcomes you to an amazing community!",
+    "slug": "onrun",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android"],
+    "version": "0.3.0",
+    "orientation": "portrait",
+    "facebookDisplayName": "onRun",
+    "facebookScheme": "fb678787762557509",
+    "facebookAppId": "678787762557509",
+    "icon": "./assets/yellowRbase.png",
+    "androidStatusBar": {
+      "backgroundColor": "#f3f5f7"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7b6fcf"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.onrun",
+      "buildNumber": "24",
+      "config": {
+        "usesNonExemptEncryption": false,
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.338959907607-me0sht6s0vklup80jil6bo7qg7nl2is3"
+        }
+      },
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "facebookAppId": "678787762557509",
+        "NSCameraUsageDescription": "onRun requires access to your camera to let you add pictures to post to your feed.",
+        "NSPhotoLibraryUsageDescription": "onRun needs to access your camera roll so that you can upload images. Your images will not be shared without your permission.",
+        "NSPhotoLibraryAddUsageDescription": "onRun needs to access your camera roll so that you can upload images. Your images will not be shared without your permission.",
+        "NSLocationWhenInUseUsageDescription": "onRun requires your location so that we can centre the map on you & show you where races near you are.",
+        "NSLocationAlwaysUsageDescription": "onRun requires your location so that we can centre the map on you & show you where races near you are.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "onRun requires your location so that we can centre the map on you & show you where races near you are.",
+        "NSLocationUsageDescription": "onRun requires your location so that we can centre the map on you & show you where races near you are.",
+        "NSCalendarsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSContactsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMicrophoneUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMotionUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSRemindersUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us."
+      }
+    },
+    "android": {
+      "package": "com.app.onrun",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 24,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBaORd-_i1PNOtWu3-gWAec-druY8zQ_xk"
+        }
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_CONTACTS",
+        "READ_PHONE_STATE",
+        "RECORD_AUDIO",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "extra": {
+      "facebook": {
+        "appId": "678787762557509"
+      }
+    }
+  }
+}
