@@ -1,3 +1,6 @@
+This project is based on React Native, mobx, chart, google map APIs, Firebase.
+And this project is based on Expo.io.
+
 # onRun: 
 Garnishes your athletic results, and welcomes you to an amazing community! 
 
