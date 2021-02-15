@@ -7,11 +7,11 @@ And this project is based on Expo.io.
 
 1. Clone the repository
 
-		git clone https://gitlab.com/ahangari24/onrun-client.git
+		git clone https://github.com/greencodedev/react-native-firebase-mobile-app.git
 	
-2. Change directory to `onrun-client`
+2. Change directory to `react-native-firebase-mobile-app`
 	
-		cd onrun-clinet
+		cd react-native-firebase-mobile-app
 	
 3. Install npm packages by using `yarn` or `npm`
 
