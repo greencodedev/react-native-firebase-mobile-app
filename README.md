@@ -119,7 +119,6 @@ If your branch was made off of origin/master, then say origin/master instead of 
 
 ### 8. Delete the last pushed commit in origin
     git reset HEAD^ --hard   (First reset the branch to the parent of the current commit)
-    git push https://gitlab.com/bkamrani/onrun-client -f      (Then force-push it to the remote)
 
 ### 9. Delete the local and remote branches (note: they are different objects!)
     git branch -d <branch_name>                    [local branch]
@@ -137,9 +136,6 @@ If your branch was made off of origin/master, then say origin/master instead of 
 ### make sure of the node version (node -v). Current node version is: 10.16.3  
 https://nodejs.org/en/download/
 
-### do a full clean up
-watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && rm -rf node_modules/ && yarn cache clean && yarn install && yarn start -- --reset-cache
-
 
 #### try to upgrade the yarn
 yarn cache clean && yarn upgrade && yarn
@@ -148,22 +144,3 @@ yarn cache clean && yarn upgrade && yarn
 sudo npm install -g --unsafe-perm expo-cli
 
 =================================================
-
-
-# Publishing:
-
-### iOS Test Flight 
-**To build:**
-expo build:ios
-
-**To upload:**
-expo upload:ios --apple-id bkamrani@gmail.com --apple-id-password afeq-ixah-hqbl-nxde --app-name onRun --sku com.app.onrun --language English
-
-### Android 
-expo build:android -t app-bundle
-
-### List of available builds
-expo build:list  
-
-### Expo help
-expo --help
