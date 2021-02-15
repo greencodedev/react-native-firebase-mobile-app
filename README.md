@@ -1,28 +1,6 @@
 This project is based on React Native, mobx, chart, google map APIs, Firebase.
 And this project is based on Expo.io.
 
-# onRun: 
-Garnishes your athletic results, and welcomes you to an amazing community! 
-
-
-
-## onRun Benefits:
-- Find and register your past races
-- Add to, or remove from, list of your running achievements
-- Enrich your race day experience by adding your photos and race reports
-- Glorify your achievements by sharing with your friends anytime 
-- Follow like-minded peers to broaden your possibilities
-- And join the community of amazing runners
-=> all in order to become a better runner and a better version of self 🙂
-
-——————————
-
-
-# OnRuN
-Process of collecting Achievement is explained [https://gitlab.com/bkamrani/onrun-client/wikis/Achievement-Collection-Process]
-https://gitlab.com/bkamrani/onrun-client/wikis/Achievement-Collection-Process
-
-
 ## Instructions
 
 ### Getting Started
